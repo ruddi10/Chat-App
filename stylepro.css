@@ -1,0 +1,123 @@
+html{
+    font-size: 15px;
+  }
+  
+  
+  
+  *{
+    box-sizing: border-box;
+     font-family: 'Poppins',sans-serif ;
+  }
+  .topnav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    flex-flow: row;
+    width: max-c
+  }
+  body{
+    margin: 0;
+    background-color: black;
+    }
+  .add{
+     color: #4CAF50;
+     padding: 0.5rem;
+     width: 3rem;
+     height: 3rem;
+     border: none;
+     background-color: transparent;
+    font-weight: bold;
+     text-decoration: none;
+     font-size: 3rem;
+  
+  }
+  .wrap{
+    display: flex;
+    background-color: #4CAF50;
+    width: 70%;
+    margin: 1rem auto;
+    border-radius: 4px;
+    padding: 2rem 0;
+    flex-direction: column;
+  }
+  .wrap div{
+    align-self: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+  }
+  .myform{
+    align-self: center;
+    margin-top: 2rem;
+    max-width:500px;
+  }
+  .inputvalue{
+    width: 100%;
+    padding: 0.7rem;
+    margin: 1rem;
+  }
+  .upload{
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    margin-top:0;
+  }
+  .submitbutton{
+    background-color: orange;
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+ 
+  #dateof{
+      display:flex;
+  }
+  #in{
+      flex-shrink:2;
+      width:55%;
+      margin-left: 0;
+         
+  
+  }
+  #ini{
+    flex-shrink:2;
+    width:35%;
+    margin-left: 0;
+       
+
+}
+#textarea{
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 1rem;
+}  
+#para{
+    align-self: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    color: white;
+    line-height: 2rem;
+}
+#pp{
+    display: flex;
+}
+#pp label{
+    font-size: 1rem;
+    align-self: center;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}

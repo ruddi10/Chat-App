@@ -1,0 +1,144 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    background-color: rgb(63, 187, 228);
+}
+.main{
+    background-color: white;
+    min-height: 700px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: column;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(153, 151, 151);
+}
+.link{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    margin: 0.8rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+.backbutton{
+    background-color:rgb(211, 21, 21);
+    width: 95%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .btn{
+      display: flex;
+      align-items: center;
+  }
+  .write{
+      display: flex;
+      flex-flow: row;
+      flex: 1;
+  }
+  .imgcont{
+      flex: 2;
+      padding: 1rem;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+  }
+  .info{
+      flex: 3;
+      display: flex;
+      flex-flow: column;
+      padding: 1rem;
+  }
+  .edit{
+      flex: 3;
+      display: flex;
+      padding: 1rem;
+      justify-content: center;
+  }
+  .image{
+width: 90%;
+height: auto;
+margin-top: 1rem;
+  }
+  .about{
+      flex: 1;
+      display: flex;
+      flex-flow: column;
+      margin-top: 1.7rem;
+      padding: 0.5rem;
+      justify-content: flex-end;
+
+  }
+  .about p{
+      flex: 1;
+      margin-top: 1rem;
+      text-align: left;
+  }
+  .headin{
+      color: #968c8c;
+      font-weight: bold;
+      font-size: 0.9rem;
+      border-bottom: 1px solid rgb(153, 151, 151);
+  }
+  .name{
+      display: flex;
+      flex-flow: column;
+      margin-top: 0.8rem;
+  }
+  .user{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: black;
+  }
+  .sub{
+      margin-top: 0.3rem;
+      font-weight: bolder;
+      color:  rgb(63, 187, 228);
+      font-size: 1rem;
+  }
+  .contact{
+      margin-top: 2.1rem;
+      margin-bottom: 3.1rem;
+      color:  rgb(63, 187, 228);
+  }
+  .subhead{
+      color: black;
+      
+      margin-right: 2rem;
+      flex: 1;
+  }
+  .y{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0.5rem;
+  }
+  .basic{
+    color:  rgb(63, 187, 228);
+    margin-bottom: 3rem;
+  }
+  .editbutton{
+      padding: 0.8rem;
+      margin-top: 0.8rem;
+  }
+  

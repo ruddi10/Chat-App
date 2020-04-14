@@ -1,0 +1,138 @@
+html{
+    font-size: 15px;
+  }
+  
+  
+  
+  *{
+    box-sizing: border-box;
+     font-family: 'Poppins',sans-serif ;
+  }
+  
+  body{
+    margin: 0;
+    background-color: rgb(161, 153, 153);
+  
+    }
+    .wrap{
+        display: flex;
+        margin: auto;
+        height: 700px;
+        margin-top: 4rem;
+        width: 90%;
+        
+    }
+    .users{
+        flex:1;
+        background-color: rgb(216, 214, 212);
+        display: flex;
+        flex-flow: column;
+        overflow: auto;
+    }
+    .area{
+        flex:2;
+        background-color: white;
+    }
+.userimage{
+    width: 50px;
+    border-radius: 50%;
+}
+.userwrap{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(167, 166, 166);
+    align-items: center;
+    margin-bottom: 1rem;
+    
+
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.link a{
+    text-decoration: none;
+    margin: 0.8rem;
+    font-weight: bold;
+    color: black;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+.area{
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+}
+.no{
+    font-size: 3rem;
+    font-weight: bold;
+    flex: 1;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+.head{
+    display: none;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+}
+.mainarea{
+    display: none;
+    flex:1;
+    flex-flow: column-reverse;
+    padding: 0.8rem;
+    width:100%;
+    justify-content: flex-end;
+    overflow: auto;
+}
+.myform{
+    display: flex;
+    width: 100%;
+    padding: 0.4rem;
+}
+.messa{
+flex: 1;
+}
+.btn{
+padding: 0.8rem;
+background-color: rgb(16, 30, 223);
+color: white;
+}
+.userimage1{
+    width: 40px;
+    border-radius: 50%;
+}
+.text{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+}
+.received{
+background-color: rgb(207, 197, 197);
+color: black;
+display: flex;
+padding: 1rem;
+font-size: 1.1rem;
+width: max-content;    
+max-width: 30%;
+margin-bottom: 1rem;
+}
+.sent{
+    background-color: rgb(49, 49, 247);
+    color: white;
+    display: flex;
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: max-content;    
+    max-width: 30%;
+    margin-bottom: 1rem;
+    margin-left: auto;
+}

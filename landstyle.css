@@ -1,0 +1,47 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    background-color: turquoise;
+}
+.content{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 1000px;
+    box-shadow: 3px 3px 20px 3px rgb(23, 37, 73);
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem;
+    min-height: 400px;
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-bottom: 3rem;
+
+}
+.text{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+.backbutton{
+    background-color:orange;
+    width: 90%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.7rem;
+    margin-top: 5rem;
+    border-radius: 15px;
+  }
